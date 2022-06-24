@@ -21,8 +21,8 @@ class Routing {
         //pobieramy kontroler z tablicy routingu
         $controller = self::$routes[$action];
         //tworzymy obiekt kontrolera
-        $object = new $controller;
+         $object = new $controller;
         //z tego kontrolera chcemy wywolac akcje
-        $object -> $action();
+         $object->$action();
     }
 }

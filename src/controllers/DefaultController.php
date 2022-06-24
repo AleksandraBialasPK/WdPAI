@@ -10,7 +10,7 @@ class DefaultController extends Appcontroller {
         die("index method");
     }
 
-    public function project() {
+    public function projects() {
         //TODO display projcts.html
         die("project method");
     }
