@@ -6,7 +6,7 @@ $path = trim($_SERVER['REQUEST_URI'], '/');    //sciezka ktora wyslala do nas pr
 $path = parse_url($path, PHP_URL_PATH);
 
 Routing::get('index', 'DefaultController');
-Routing::get('projects', 'DefaultController');
+Routing::get('project', 'DefaultController');
 
 //pobierze z tablicy routingu kontroler przypisany do konkretnego url i z tego kontrolera wykona nasza akcje
 Routing::run($path);
