@@ -1,5 +1,13 @@
+body {
+    margin: 0;
+}
+
 .container {
     width: 100vw;
     height: 100vh;  
     background: #D1DEE7 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
