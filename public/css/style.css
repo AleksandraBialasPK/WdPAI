@@ -34,15 +34,31 @@ form {
     border-radius: 70px;
 }
 
-button {
+.sign-in {
     background: #3E80D1 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #707070;
     border-radius: 19px;
-    background: #3E80D1 0% 0% no-repeat padding-box;
     width: 20%;
     border: none;
     color: #FDFBF5;
-    margin: 1em;
+    margin: 2em;
     line-height: 2.5em;
+}
+
+.forgot-or-sign-up{
+    border: none;
+    background: #FDFBF5 0% 0% no-repeat padding-box;
+    text-align: left;
+    font: italic normal normal 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #2B2E49;  
+}
+
+input {
+    border: 1px;
+    border-radius: 33%;
+    padding: 2em;
+    background: #FDFBF5 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 1px 2px #00000029;
 }
