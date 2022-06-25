@@ -75,21 +75,29 @@ input {
 
 @media only screen and (max-device-width: 820px){
     * {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .login-container, .logo {
         width: 100%;
+        height: 50%;
     }
 
     form {
         width: 60%;
-        height: auto;
         margin: auto;
     }
 
-    .sign-in, .forgot-or-sign-up {
+    input {
+        margin-top: 0em;
+    }
+    .sign-in {
         width: 50%;
+        margin-bottom: 1em;
+    }
+
+    .forgot-or-sign-up {
+        font-size: 28px;
     }
 
     img {
