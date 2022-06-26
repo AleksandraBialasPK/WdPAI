@@ -60,7 +60,7 @@ form {
     text-align: center;
     font: italic normal normal 20px/27px Segoe UI;
     letter-spacing: 0px;
-    color: #2B2E49;  
+    color: #041e3d;  
 }
 
 input {
@@ -68,6 +68,7 @@ input {
     border-radius: 33%;
     padding: 2em;
     font: italic normal normal 20px/27px Segoe UI;
+    color: #041e3d; 
     background: #FDFBF5 0% 0% no-repeat padding-box;
     box-shadow: inset 1px 1px 1px #00000029;
     border: none;
