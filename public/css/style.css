@@ -64,10 +64,11 @@ form {
 }
 
 input {
-    font-size: 20px;
+    font-size: 25px;
     border: 1px;
     border-radius: 33%;
     padding: 2em;
+    font: italic normal normal 20px/27px Segoe UI;
     background: #FDFBF5 0% 0% no-repeat padding-box;
     box-shadow: inset 1px 1px 1px #00000029;
     border: none;
@@ -75,9 +76,9 @@ input {
     margin: 0.5em;
 }
 
-@media only screen and (max-device-width: 820px){
+@media only screen and (max-device-width: 420px){
     * {
-        font-size: 32px;
+        font-size: 56px;
     }
 
     .login-container {
@@ -87,21 +88,23 @@ input {
     .logo {
         width: 100%;
         margin-bottom: 0%;
-        margin-top: 0%;
-        /* TODO move logo up */
+        margin-top: -20%;  
     }
 
     form {
         width: 60%;
+        height: 45%;
         margin: auto;
     }
 
     input {
         margin-top: 0em;
+        margin-bottom: 1em;
     }
 
     .sign-in {
         width: 50%;
+        margin-top: 5em;
         margin-bottom: 1em;
     }
 
