@@ -10,8 +10,8 @@ class DefaultController extends Appcontroller {
         $this->render('login');
     }
 
-    public function project() {
+    public function calendar() {
         //TODO display projcts.html
-        $this->render('project');
+        $this->render('calendar');
     }
 }
