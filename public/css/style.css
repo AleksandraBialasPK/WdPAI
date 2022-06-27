@@ -1,186 +1,184 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;  
-    background: #D1DEE7 0% 0% no-repeat padding-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #d1dee7 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-login {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .login-container {
-    width: 50%;
-    height: 100vh;  
-    background: #D1DEE7 0% 0% no-repeat padding-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 100vh;
+  background: #d1dee7 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 70vh;
-    background: #FDFBF5 0% 0% no-repeat padding-box;
-    box-shadow: 0px 9px 9px #00000029;
-    border: none;
-    border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 70vh;
+  background: #fdfbf5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 9px 9px #00000029;
+  border: none;
+  border-radius: 70px;
 }
 
 .sign-in {
-    font-size: 20px;
-    background: #3E80D1 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 1px solid #707070;
-    border-radius: 20px;
-    width: 20%;
-    border: none;
-    color: #FDFBF5;
-    margin: 1em;
-    line-height: 2.5em;
+  font-size: 20px;
+  background: #3e80d1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 20px;
+  width: 20%;
+  border: none;
+  color: #fdfbf5;
+  margin: 1em;
+  line-height: 2.5em;
 }
 
-.forgot-or-sign-up{
-    border: none;
-    background: #FDFBF5 0% 0% no-repeat padding-box;
-    text-align: center;
-    font: italic normal normal 20px/27px Segoe UI;
-    letter-spacing: 0px;
-    color: #2B2E49; 
+.forgot-or-sign-up {
+  border: none;
+  background: #fdfbf5 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: italic normal normal 20px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #2b2e49;
 }
 
 input {
-    border: 1px;
-    border-radius: 33%;
-    padding: 2em;
-    font: italic normal normal 20px/27px Segoe UI;
-    color: #2B2E49; 
-    background: #FDFBF5 0% 0% no-repeat padding-box;
-    box-shadow: inset 1px 1px 1px #00000029;
-    border: none;
-    border-radius: 70px;
-    margin: 0.5em;
+  border: 1px;
+  border-radius: 33%;
+  padding: 2em;
+  font: italic normal normal 20px/27px Segoe UI;
+  color: #2b2e49;
+  background: #fdfbf5 0% 0% no-repeat padding-box;
+  box-shadow: inset 1px 1px 1px #00000029;
+  border: none;
+  border-radius: 70px;
+  margin: 0.5em;
 }
 
-@media only screen and (max-device-width: 420px){
-    * {
-        font-size: 56px;
-    }
+@media only screen and (max-device-width: 420px) {
+  * {
+    font-size: 56px;
+  }
 
-    .login-container {
-        width: 100%;
-    }
+  .login-container {
+    width: 100%;
+  }
 
-    .logo {
-        width: 100%;
-        margin-bottom: 0%;
-        margin-top: -20%;  
-    }
+  .logo {
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: -20%;
+  }
 
-    form.login {
-        width: 60%;
-        height: 45%;
-        margin: auto;
-    }
+  form.login {
+    width: 60%;
+    height: 45%;
+    margin: auto;
+  }
 
-    input {
-        margin-top: 0em;
-        margin-bottom: 1em;
-    }
+  input {
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
 
-    .sign-in {
-        width: 50%;
-        margin-top: 5em;
-        margin-bottom: 1em;
-    }
+  .sign-in {
+    width: 50%;
+    margin-top: 5em;
+    margin-bottom: 1em;
+  }
 
-    .forgot-or-sign-up {
-        font-size: 28px;
-    }
+  .forgot-or-sign-up {
+    font-size: 28px;
+  }
 
-    img {
-        height: 50%;
-        margin: 2em;
-    }
+  img {
+    height: 50%;
+    margin: 2em;
+  }
 }
 
 .base-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
 }
 
 nav {
-    width: 20vw;
-    height: 100%;
-    background: #D1DEE7 0% 0% no-repeat padding-box;
-    box-shadow: inset 0px 3px 6px #00000029; 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  width: 20vw;
+  height: 100%;
+  background: #d1dee7 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 a {
-    text-decoration: none;
-    display: inline-block;
-    line-height: 2em;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2em;
 }
-
 
 main {
-    width: 80vw;
-    height: 100%;
-    background: #FDFBF5 0% 0% no-repeat padding-box;
-    display: flex;
-    flex-direction: column;
+  width: 80vw;
+  height: 100%;
+  background: #fdfbf5 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
 }
 
-main>.logo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+main > .logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 ul {
-    list-style-type: none;
-
+  list-style-type: none;
 }
 
 .nav-item {
-    background: #FDFBF5 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 1px solid #2B2E49;
-    border-radius: 1em;
-    letter-spacing: 0.7px;
-    text-align: left;
-    color: #2B2E49;
-    font: italic normal normal 22px/30px Segoe UI;
-    height: 5vh;
-    margin: 0.5vh auto;
-    width: 16vw;
-    padding-top: 0.2em;
+  background: #fdfbf5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #2b2e49;
+  border-radius: 1em;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #2b2e49;
+  font: italic normal normal 22px/30px Segoe UI;
+  height: 5vh;
+  margin: 0.5vh auto;
+  width: 16vw;
+  padding-top: 0.2em;
 }
 
-.nav-item>i {
-    padding: 0.5em 0.5em 0.5em 0.7em;
+.nav-item > i {
+  padding: 0.5em 0.5em 0.5em 0.7em;
 }
 
 .calendar {
-    width: 80vw;
-    height: 80%;
+  width: 80vw;
+  height: 80%;
 }
