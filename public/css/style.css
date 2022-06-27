@@ -141,38 +141,46 @@ a {
     line-height: 2em;
 }
 
-li i {
-    font-size: 1.5em;
-}
 
 main {
     width: 80vw;
     height: 100%;
     background: #FDFBF5 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
 }
 
-.button {
-    background: #FDFBF5 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 1px solid #2B2E49;
-    border-radius: 1em;
-    margin-left: 1em;
-    letter-spacing: 0.7px;
-    text-align: left;
-    color: #2B2E49;
-    width: 60%;
+main>.logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 ul {
     list-style-type: none;
+
+}
+
+.nav-item {
+    background: #FDFBF5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #2B2E49;
+    border-radius: 1em;
+    letter-spacing: 0.7px;
+    text-align: left;
     color: #2B2E49;
     font: italic normal normal 22px/30px Segoe UI;
-    letter-spacing: 0.72px;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0%;
-    width: calc(100%-70px)
+    height: 5vh;
+    margin: 0.5vh auto;
+    width: 16vw;
+    padding-top: 0.2em;
 }
-main>img {
 
+.nav-item>i {
+    padding: 0.5em 0.5em 0.5em 0.7em;
+}
+
+.calendar {
+    width: 80vw;
+    height: 80%;
 }
