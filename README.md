@@ -1,4 +1,4 @@
-# WdPAI
+# LIMI
 
 OVERVIEW
 This app was created for the educational purposes. #TODO: describe what it's going to be...
