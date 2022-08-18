@@ -1,13 +1,24 @@
 # LIMI
 
 ###Table of Contents
-General Information
-Technologies Used
+* Introduction
+* Key Features
+* Technologies 
+* Launch
+* Contact
 
-###General Information
+###Introduction
+This web application is a shared calendar, designed to help you and your family or friends, plan the events, meetings, 
+and such.
 
-###Technologies Used
 This repository contains all of the project files (including documentation), and stores each file's revision history.
 
+###Technologies
+
+###Contact
+Aleksandra Białas  
+Wydział Informatyki i Telekomunikacji  
+Politechniki Krakowskiej  
+e-mail: aleksandra.bialas@student.pk.edu.pl
 
 
