@@ -2,13 +2,12 @@
 
 ###Table of Contents
 * Introduction
-* Key Features
 * Technologies 
 * Launch
 * Contact
 
 ###Introduction
-This web application is a shared calendar, designed to help you and your family or friends, plan the events, meetings, 
+This web application is an academic project, developed to plan and share the events, meetings, 
 and such.
 
 This repository contains all of the project files (including documentation), and stores each file's revision history.
