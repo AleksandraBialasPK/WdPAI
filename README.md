@@ -1,7 +1,7 @@
 # LIMI
 
 ###Table of Contents
-* Introduction
+* [Introduction](###Introduction)
 * Technologies 
 * Launch
 * Contact
@@ -18,6 +18,13 @@ This repository contains all of the project files (including documentation), and
 * Docker: 20.10.12
 
 ###Launch
+1. To clone the repository open a terminal and execute:
+git clone --recursive https://github.com/AleksandraBialasPK/WdPAI.git
+
+2. Execute the command:
+docker-compose up
+
+3. Open a web browser and lauch a website!
 
 ###Contact
 Aleksandra Białas  
