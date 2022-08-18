@@ -12,12 +12,12 @@ and such.
 
 This repository contains all of the project files (including documentation), and stores each file's revision history.
 
-###Technologies
+### Technologies
 * PHP: 8.1.3-fpm-alpine3.15
 * Nginx: 1.17.8-fpm-alpine3.15
 * Docker: 20.10.12
 
-###Launch
+### Launch
 1. To clone the repository open a terminal and execute:
 git clone --recursive https://github.com/AleksandraBialasPK/WdPAI.git
 
@@ -26,7 +26,7 @@ docker-compose up
 
 3. Open a web browser and lauch a website!
 
-###Contact
+### Contact
 Aleksandra Białas  
 Wydział Informatyki i Telekomunikacji  
 Politechniki Krakowskiej  
