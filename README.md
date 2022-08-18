@@ -1,10 +1,10 @@
 # LIMI
 
 ### Table of Contents
-* [Introduction](###Introduction)
-* [Technologies](###Technologies)
-* [Launch](###Launch)
-* [Contact](###Contact)
+* [Introduction](#Introduction)
+* [Technologies](#Technologies)
+* [Launch](#Launch)
+* [Contact](#Contact)
 
 ### Introduction
 This web application is an academic project, developed to plan and share the events, meetings, 
