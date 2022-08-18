@@ -13,6 +13,11 @@ and such.
 This repository contains all of the project files (including documentation), and stores each file's revision history.
 
 ###Technologies
+* PHP: 8.1.3-fpm-alpine3.15
+* Nginx: 1.17.8-fpm-alpine3.15
+* Docker: 20.10.12
+
+###Launch
 
 ###Contact
 Aleksandra Białas  
