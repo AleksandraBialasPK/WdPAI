@@ -1,8 +1,4 @@
-<h1 align="center">
-  <br>
-  <a href=""><img src="" alt="LIMI" width="400"></a>
-  <br>
-</h1>
+![logo](https://user-images.githubusercontent.com/85589955/185580692-2fffe2fe-801f-412c-9676-3521f619238a.svg)
 
 ### Table of Contents
 * [Introduction](#Introduction)
