@@ -1,4 +1,8 @@
-![logo](https://user-images.githubusercontent.com/85589955/185580692-2fffe2fe-801f-412c-9676-3521f619238a.svg)
+<h1 align="center">
+  <br>
+  <a href="https://github.com/AleksandraBialasPK/WdPAI"><img src="https://user-images.githubusercontent.com/85589955/185580692-2fffe2fe-801f-412c-9676-3521f619238a.svg" alt="LIMI" width="400"></a>
+  <br>
+</h1>
 
 ### Table of Contents
 * [Introduction](#Introduction)
