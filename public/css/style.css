@@ -135,10 +135,14 @@ nav {
   justify-content: flex-start;
 }
 
-a {
+li {
   text-decoration: none;
   display: inline-block;
   line-height: 2em;
+}
+
+li: :last-child {
+    
 }
 
 main {
@@ -153,10 +157,6 @@ main > .logo {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .nav-item {

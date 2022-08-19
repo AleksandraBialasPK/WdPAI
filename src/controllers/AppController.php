@@ -13,7 +13,7 @@ class AppController
             //zapisujemy do bufora
             ob_start();
             include $templatePath;
-            $output = ob_get_clean; //wyrzuca zapis bufora
+            $output = ob_get_clean(); //wyrzuca zapis bufora
         }
         print $output;
     }

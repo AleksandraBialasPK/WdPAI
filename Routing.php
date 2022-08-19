@@ -25,6 +25,8 @@ class Routing
         $controller = self::$routes[$action];
         //tworzymy obiekt kontrolera
         $object = new $controller;
+        //localhost:8080/   (pusty)
+        $action = $action ?: 'index';
         //z tego kontrolera chcemy wywolac akcje
         $object->$action();
     }
