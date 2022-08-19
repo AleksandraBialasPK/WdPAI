@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center" style="backround-color: #fdfbf5">
   <br>
   <a href="https://github.com/AleksandraBialasPK/WdPAI"><img src="https://user-images.githubusercontent.com/85589955/185580692-2fffe2fe-801f-412c-9676-3521f619238a.svg" alt="LIMI" width="400"></a>
   <br>
@@ -9,6 +9,8 @@
 * [Technologies](#Technologies)
 * [Launch](#Launch)
 * [Contact](#Contact)
+
+<span style="color:orange;">Word up</span>
 
 ### Introduction
 This web application is an academic project, developed to plan and share the events, meetings, 
