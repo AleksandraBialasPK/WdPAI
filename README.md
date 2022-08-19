@@ -1,4 +1,8 @@
-# LIMI
+<h1 align="center">
+  <br>
+  <a href=""><img src="" alt="LIMI" width="400"></a>
+  <br>
+</h1>
 
 ### Table of Contents
 * [Introduction](#Introduction)
@@ -19,11 +23,13 @@ This repository contains all of the project files (including documentation), and
 
 ### Launch
 1. To clone the repository open a terminal and execute:
-git clone --recursive https://github.com/AleksandraBialasPK/WdPAI.git
-
+    ```bash
+    $ git clone --recursive https://github.com/AleksandraBialasPK/WdPAI.git
+    ```
 2. Execute the command:
-docker-compose up
-
+    ```bash
+    docker-compose up
+    ```
 3. Open a web browser and lauch a website!
 
 ### Contact
