@@ -136,13 +136,11 @@ nav {
 }
 
 li {
+  position: relative;
+  top: 250px;
   text-decoration: none;
   display: inline-block;
   line-height: 2em;
-}
-
-li: :last-child {
-    
 }
 
 main {
