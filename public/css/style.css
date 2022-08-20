@@ -137,7 +137,7 @@ nav {
 
 li {
   position: relative;
-  top: 250px;
+  top: 200px;
   text-decoration: none;
   display: inline-block;
   line-height: 2em;
@@ -173,10 +173,11 @@ main > .logo {
 }
 
 .nav-item > i {
-  padding: 0em 0.2em 0.5em 0.7em;
+  padding: 0.5em 0.5em 0.5em 0.7em;
 }
 
-.calendar {
-  width: 80vw;
-  height: 80%;
+.photo {
+  margin: 0.5vh auto;
+  border-radius: 50%;
+  width: 50%;
 }
