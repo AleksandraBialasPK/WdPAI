@@ -9,16 +9,24 @@
 }
 
 .rectangle_blank_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   top: 15%;
   left: 15%;
-  width: 25%;
-  height: 70%;
+  width: 30%;
+  height: 80%;
   background: #fffefb 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border: 1px solid #2b2e49;
 }
 
 .rectangle_blank_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   top: 15%;
   left: 15%;
   width: 15%;
@@ -29,6 +37,10 @@
 }
 
 .rectangle_dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   top: 15%;
   left: 15%;
   width: 10%;
@@ -44,4 +56,10 @@
     letter-spacing: 1.5px;
     color: #2b2e49;
     font: italic normal normal 30px/30px Segoe UI;
+}
+
+.photo_users {
+  border-radius: 50%;
+  width: 20%;
+  box-shadow: 0px 3px 6px #00000029;
 }

@@ -39,7 +39,7 @@
   }
 
   footer > .logo {
-    transform: scale(0.60);
+    transform: scale(0.50);
     transform-origin: bottom right;
     display: flex;    
     align-items: flex-end; 
