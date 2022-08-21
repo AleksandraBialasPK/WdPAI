@@ -13,14 +13,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  top: 217px;
-  left: 852px;
-  width: 235px;
-  height: 50%;
+  top: 15%;
+  left: 15%;
+  width: 25%;
+  height: 70%;
   background: #fffefb 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border: 1px solid #2b2e49;
-  opacity: 1;
 }
 
 .rectangle_blank_sides {
@@ -28,30 +27,27 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  top: 217px;
-  left: 852px;
-  width: 235px;
-  height: 368px;
+  top: 15%;
+  left: 15%;
+  width: 15%;
+  height: 50%;
   background: #f1f9ff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border: 1px solid #2b2e49;
-  opacity: 1;
 }
 
 .rectangle_dark {
-  top: 239px;
-  left: 1086px;
-  width: 162px;
-  height: 324px;
-
+  top: 15%;
+  left: 15%;
+  width: 10%;
+  height: 30%;
   background: #d1dee7 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border: 1px solid #2b2e49;
-  opacity: 1;
 }
 
 .contact_name {
-    margin-top:30px; 
+    margin-top: 30px; 
     margin-left: 10%;
     letter-spacing: 1.5px;
     color: #2b2e49;
