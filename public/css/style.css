@@ -163,12 +163,15 @@ main > .logo {
   border-radius: 1em;
   letter-spacing: 0.7px;
   text-align: left;
-  color: #2b2e49;
-  font: italic normal normal 22px/30px Segoe UI;
   height: 5vh;
   margin: 0.5vh auto;
   width: 16vw;
   padding-top: 0.2em;
+}
+
+.writing {
+  color: #2b2e49;
+  font: italic normal normal 22px/30px Segoe UI;
 }
 
 .nav-item > i {
