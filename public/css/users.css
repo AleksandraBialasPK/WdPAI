@@ -9,10 +9,6 @@
 }
 
 .rectangle_blank_main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   top: 15%;
   left: 15%;
   width: 25%;
@@ -22,11 +18,7 @@
   border: 1px solid #2b2e49;
 }
 
-.rectangle_blank_sides {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.rectangle_blank_side {
   top: 15%;
   left: 15%;
   width: 15%;
