@@ -137,7 +137,7 @@ nav {
 
 li {
   position: relative;
-  top: 200px;
+  top: 100px;
   text-decoration: none;
   display: inline-block;
   line-height: 2em;
@@ -163,15 +163,12 @@ main > .logo {
   border-radius: 1em;
   letter-spacing: 0.7px;
   text-align: left;
+  color: #2b2e49;
+  font: italic normal normal 22px/30px Segoe UI;
   height: 5vh;
   margin: 0.5vh auto;
   width: 16vw;
   padding-top: 0.2em;
-}
-
-.writing {
-  color: #2b2e49;
-  font: italic normal normal 22px/30px Segoe UI;
 }
 
 .nav-item > i {
@@ -184,10 +181,17 @@ main > .logo {
 }
 
 .photo {
-  margin: 0.5vh auto;
-  position: relative;
-  top: 50px;
+  margin-top:60px; 
+  margin-left: 25%;
   border-radius: 50%;
   width: 50%;
   box-shadow: 0px 3px 6px #00000029;
+}
+
+.name {
+  margin-top:30px; 
+  margin-left: 25%;
+  letter-spacing: 1.5px;
+  color: #2b2e49;
+  font: italic normal normal 35px/30px Segoe UI;
 }
