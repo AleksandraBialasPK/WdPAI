@@ -32,9 +32,11 @@
   }
   
   main > .logo {
-    display: flex;
+    transform: scale(0.60);
+    transform-origin: bottom right;
+    display: flex;    
+    align-items: flex-end; 
     justify-content: flex-end;
-    align-items: flex-end;
   }
   
   .nav-item {
