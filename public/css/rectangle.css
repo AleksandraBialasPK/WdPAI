@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.rectangle_blank_main {
+    display: flex;    
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    top: 217px;
+    left: 852px;
+    width: 235px;
+    height: 50%;
+    background: #FFFEFB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #2b2e49;
+    opacity: 1;
+}
+
+.rectangle_blank_sides {
+    display: flex;    
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    top: 217px;
+left: 852px;
+width: 235px;
+height: 368px;
+background: #F1F9FF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid  #2b2e49;
+opacity: 1;
+}
