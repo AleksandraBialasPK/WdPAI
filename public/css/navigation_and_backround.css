@@ -24,26 +24,20 @@
   }
   
   main {
-    width: 80vw;
     height: 100%;
+    width: 80vw;
     background: #fdfbf5 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
   }
   
-  footer {
-    display: flex;
-    flex-direction: column;
-    height: 20%;
-    width: 80vw;
-  }
 
-  footer > .logo {
+  main > .logo {
     transform: scale(0.50);
     transform-origin: bottom right;
-    display: flex;    
-    align-items: flex-end; 
-    justify-content: flex-end;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
   }
 
   .nav-item {
