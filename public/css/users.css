@@ -4,6 +4,8 @@
   background: #fdfbf5 0% 0% no-repeat padding-box;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .rectangle_blank_main {
