@@ -12,9 +12,9 @@ class DefaultController extends Appcontroller
         $this->render('login');
     }
 
-    public function planer()
+    public function users()
     {
         //TODO display projcts.html
-        $this->render('planer');
+        $this->render('users');
     }
 }
