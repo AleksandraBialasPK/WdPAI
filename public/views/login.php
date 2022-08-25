@@ -1,12 +1,22 @@
 <!DOCTYPE html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="public/css/login.css" />
   <title>LOGIN PAGE</title>
 </head>
+
 <body>
   <div class="container">
     <div class="login-container">
       <form class="login">
+        <div class="messages">
+          <?php if (isset($message)) {
+            foreach ($messages as $message) {
+              echo $message;
+            }
+          }
+          ?>
+        </div>
         <div class="logo-login">
           <img src="public/img/logo.svg" />
         </div>

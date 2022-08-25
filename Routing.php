@@ -12,6 +12,11 @@ class Routing
     self::$routes[$url] = $view;
   }
 
+  public static function post($url, $view)
+  {
+    self::$routes[$url] = $view;
+  }
+
   public static function run($url)
   {
     $action = explode("/", $url)[0];

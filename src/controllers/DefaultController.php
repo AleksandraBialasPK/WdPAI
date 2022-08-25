@@ -7,7 +7,7 @@ class DefaultController extends Appcontroller
 
     public function index()
     {
-        $this->render('login', ['message' -> 'hey there']);
+        $this->render('login');
     }
 
     public function users()
