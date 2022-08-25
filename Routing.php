@@ -2,32 +2,23 @@
 
 require_once 'src/controllers/DefaultController.php';
 
-class Routing
-{
-    //zeby odwolac sie do kontrolerow
-    public static $routes; //tablica przechowujaca URL i sciezke kontrolera ktory zostanie otwarty
+class Routing {
 
-    //metoda pozwalajaca wstawic do tablicy odpowiedni kontroler przydzielony do okreslonego urla
-    public static function get($url, $controller)
-    {
-        self::$routes[$url] = $controller;
+  public static $routes;
+
+  public static function get($url, $view) {
+    self::$routes[$url] = $view;
+  }
+
+  public static function run ($url) {
+    $action = explode("/", $url)[0];
+    if (!array_key_exists($action, self::$routes)) {
+      die("Wrong url!");
     }
 
-    //pozwala uruchomic dany kontroler przypisany pod URL
-    public static function run($url)
-    {
-        $action = explode("/", $url)[0]; //dzieli string wejsciowy wzgledem separatora
-
-        if (!array_key_exists($action, self::$routes)) {
-            die("Wrong url!"); //zatrzymuje wykonanie interpretera
-        }
-        //pobieramy kontroler z tablicy routingu
-        $controller = self::$routes[$action];
-        //tworzymy obiekt kontrolera
-        $object = new $controller;
-        //localhost:8080/   (pusty)
-        $action = $action ?: 'index';
-        //z tego kontrolera chcemy wywolac akcje
-        $object->$action();
-    }
+    $controller = self::$routes[$action];
+    $object = new $controller;
+    $action = $action ?: 'index';
+    $object->$action();
+  }
 }
