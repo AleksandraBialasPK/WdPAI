@@ -2,15 +2,18 @@
 
 require_once 'src/controllers/DefaultController.php';
 
-class Routing {
+class Routing
+{
 
   public static $routes;
 
-  public static function get($url, $view) {
+  public static function get($url, $view)
+  {
     self::$routes[$url] = $view;
   }
 
-  public static function run ($url) {
+  public static function run($url)
+  {
     $action = explode("/", $url)[0];
     if (!array_key_exists($action, self::$routes)) {
       die("Wrong url!");
