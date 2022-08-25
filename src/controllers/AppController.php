@@ -2,6 +2,13 @@
 
 class AppController
 {
+    private $request;
+
+    public function __construct()
+    {
+        $this->request = $_SERVER('REQUEST_METHOD');    
+    }
+
     protected function render(string $template = null, array $variables = [])
     {
         $templatePath = 'public/views/' . $template . '.php';
