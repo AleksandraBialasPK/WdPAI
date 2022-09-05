@@ -10,12 +10,13 @@
     <div class="login-container">
       <form class="login" action="login" method="POST" >
         <div class="messages">
-          <?php if (isset($message)) {
-            foreach ($messages as $message) {
-              echo $message;
+            <?php
+            if(isset($messages)){
+                foreach($messages as $message) {
+                    echo $message;
+                }
             }
-          }
-          ?>
+            ?>
         </div>
         <div class="logo-login">
           <img src="public/img/logo.svg" />
