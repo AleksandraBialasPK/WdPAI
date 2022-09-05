@@ -9,6 +9,7 @@ class SecurityController extends AppController
     {
        $user = new User(email:'ktos@pk.edu.pl', password: 'cos', name: 'Jakis', surname: 'Ktos');
 
+
        $email = $_POST["email"];
        $password = $_POST["password"];
 
